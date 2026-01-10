@@ -1,0 +1,20 @@
+.topheader{
+    display: flex;
+    width: 100%;
+    
+}
+
+.signin{
+    height: 20px;
+    width: 20px;
+}
+
+.title_shop{
+    height: 80px;
+    width: 150px;
+}
+
+.burger_menu,.signin {
+    height: 80px;
+    width: 80px;
+}
