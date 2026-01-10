@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="cpu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184.95 187.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #231f20;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M149.73,65.41v-23.81h-24.74v6.07h-22.41v-6.07h-5.04s-5.04,0-5.04,0v6.07h-22.41v-6.07h-24.74v23.81h3.83v22.41h-3.83v20.54h3.83v22.41h-3.83v15.22h22.5v-6.07h22.41v6.07h7.28s7.28,0,7.28,0v-6.07h22.41v6.07h22.5v-15.22h-3.83v-22.41h3.83v-20.54h-3.83v-22.41h3.83ZM139.27,135.53h-41.73s-41.73,0-41.73,0V52.06h41.73s41.73,0,41.73,0v83.47Z"/>
+  <rect class="cls-2" x="45.35" y="65.42" width="3.83" height="22.41"/>
+  <rect class="cls-2" x="45.35" y="108.36" width="3.83" height="22.41"/>
+  <rect class="cls-2" x="67.85" y="139.92" width="22.41" height="6.07"/>
+  <rect class="cls-2" x="70.09" y="41.61" width="22.41" height="6.07"/>
+  <path class="cls-1" d="M97.54,52.06h0s-41.73,0-41.73,0v83.47h41.73s41.73,0,41.73,0V52.06h-41.73ZM116.03,112.28h-18.48s-18.48,0-18.48,0v-36.97h18.48s18.48,0,18.48,0v36.97Z"/>
+  <polygon class="cls-2" points="116.03 75.31 116.03 112.28 97.54 112.28 97.54 112.29 79.06 112.29 79.06 75.31 97.54 75.31 97.54 75.31 116.03 75.31"/>
+  <rect class="cls-2" x="26.77" y="108.36" width="22.41" height="22.41"/>
+  <rect class="cls-2" x="26.77" y="65.42" width="22.41" height="22.41"/>
+  <rect class="cls-2" x="70.09" y="25.27" width="22.41" height="22.41"/>
+  <rect class="cls-2" x="70.09" y="25.27" width="22.41" height="22.41"/>
+  <rect class="cls-2" x="67.85" y="139.92" width="22.41" height="22.41"/>
+  <rect class="cls-2" x="102.58" y="41.61" width="22.41" height="6.07"/>
+  <rect class="cls-2" x="104.82" y="139.92" width="22.41" height="6.07"/>
+  <rect class="cls-2" x="145.9" y="65.41" width="3.83" height="22.41"/>
+  <rect class="cls-2" x="145.9" y="108.36" width="3.83" height="22.41"/>
+  <rect class="cls-2" x="145.9" y="108.36" width="22.41" height="22.41"/>
+  <rect class="cls-2" x="145.9" y="65.41" width="22.41" height="22.41"/>
+  <rect class="cls-2" x="102.58" y="25.27" width="22.41" height="22.41"/>
+  <rect class="cls-2" x="102.58" y="25.27" width="22.41" height="22.41"/>
+  <rect class="cls-2" x="104.82" y="139.92" width="22.41" height="22.41"/>
+</svg>

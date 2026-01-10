@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Screen" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184.95 187.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: .73px;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="162.72 75.46 162.72 162.51 75.65 162.51 75.65 143.35 135.78 143.35 135.78 75.46 162.72 75.46"/>
+  <polygon class="cls-1" points="119.19 31.93 119.19 56.29 48.71 56.29 48.71 118.99 32.13 118.99 32.13 31.93 119.19 31.93"/>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184.95 187.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #231f20;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="21.36" y="17.39" width="103.05" height="152.81" rx="15.63" ry="15.63"/>
+  <rect class="cls-1" x="36.77" y="37.83" width="72.22" height="107.1"/>
+  <rect class="cls-2" x="137.17" y="20.04" width="26.42" height="150.17" rx="5.94" ry="5.94"/>
+</svg>
