@@ -1,18 +1,23 @@
 .topheader{
     display: flex;
     width: 100%;
-    
+    background-color: beige;
 }
 
 .signin{
     height: 20px;
     width: 20px;
+    margin-left: 80%;
+    
 }
 
 .title_shop{
     height: 80px;
     width: 150px;
+    margin-left: 40%;
+    
 }
+
 
 .burger_menu,.signin {
     height: 80px;
