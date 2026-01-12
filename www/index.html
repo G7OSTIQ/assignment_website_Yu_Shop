@@ -17,8 +17,9 @@
         <div class="row">
             <div class="navbox">
                 <div class="topheader">
-                    <div class="col border">
-                        <div class="burger_menu"> <img src="assets/images/icons/bars-solid-full.svg"></div>
+                    <div class="col border navbar-toggler">
+                        <div class="burger_menu" id="navbar-toggler" onclick="slideUpDown()"> <img id="burger_menu_icon"
+                                src="assets/images/icons/bars-solid-full.svg" href="/www/index.html"></div>
                     </div>
                     <div class="col border titleshopcode">
                         <div> <img class="title_shop" src="assets/images/icons/1x/Artboard 1.png"> </div>
@@ -30,22 +31,41 @@
             </div>
         </div>
 
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="row">
+                <div class="container-fluid col border">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col border titleshopcode">
+                    <div> <img class="title_shop" src="assets/images/icons/1x/Artboard 1.png"> </div>
+                </div>
+                <div class="col border">
+                    <div class="signin"> <img src="assets/images/icons/user-solid-full.svg"></div>
+                </div>
+        </nav>
+
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="burgermenu">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <a class="flex-sm-fill text-sm-center nav-link  bg-primary text-white active fs-4"
-                    href="/index.html">Home</a>
-                <a class="flex-sm-fill text-sm-center nav-link text-white fs-4" href="/Pages/Gallery.html">Gallery</a>
-                <a class="flex-sm-fill text-sm-center nav-link text-white fs-4" href="/Pages/Contact.html">Contact</a>
+            <div class="collapse" id="navbarToggleExternalContent" id="nav_text">
+                <a id="nav_colour" class="flex-sm-fill text-sm-center nav-link  text-white active fs-4"
+                    href="/www/pages/phone.html">Phone</a>
+                <a id="nav_colour" class="flex-sm-fill text-sm-center nav-link text-white fs-4"
+                    href="/www/pages/lastest_news.html">News</a>
+                <a id="nav_colour" class="flex-sm-fill text-sm-center nav-link text-white fs-4"
+                    href="/www/pages/quiz.html">Discount Quiz</a>
+                <a id="nav_colour" class="flex-sm-fill text-sm-center nav-link text-white fs-4"
+                    href="/www/pages/top_best.html">Top Best</a>
+                <a id="nav_colour" class="flex-sm-fill text-sm-center nav-link text-white fs-4"
+                    href="/www/pages/contact.html">Contact Us</a>
             </div>
         </nav>
     </div>
+
+
 
 
 </header>
@@ -55,15 +75,143 @@
 
 
 <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+    <div class="home_banner_box">
+        <img id="home_banner" src="assets/images/all_images_andvids/entre-la-necesidad-y-el-deseo-ca.png">
+    </div>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <div class="phone_box">
+                    <div class="phone_box_image">
+                        <img id="phone_images"
+                            src="assets/images/all_images_andvids/poco f8/thumb_1166676_phone_front_big.jpg">
+                    </div>
+                    <div class="phone_text_info">
+                        <div class="row">
+                            <div class="col">
+                                <p id="phone_name">Poco F8 Ultra</p>
+                            </div>
+                            <div class="col">
+                                <p id="phone_price">€899.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="phone_box">
+                    <div class="phone_box_image">
+                        <img id="phone_images"
+                            src="assets/images/all_images_andvids/all the phones for phone page/thumb_1053301_phone_front_big.jpg">
+                    </div>
+                    <div class="phone_text_info">
+                        <div class="row">
+                            <div class="col">
+                                <p id="phone_name">Nothing Phone (3a) Pro</p>
+                            </div>
+                            <div class="col">
+                                <p id="phone_price">€349.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="phone_box">
+                    <div class="phone_box_image">
+                        <img id="phone_images"
+                            src="assets/images/all_images_andvids/all the phones for phone page/thumb_1149050_phone_front_big.jpg">
+                    </div>
+                    <div class="phone_text_info">
+                        <div class="row">
+                            <div class="col">
+                                <p id="phone_name">OnePlus 15</p>
+                            </div>
+                            <div class="col">
+                                <p id="phone_price">€1,099.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="top_best_section_box">
+        <div class="text-center">
+            <a href="/www/pages/top_best.html">
+                <div class="row">
+                    <div class="col-8">
+                        <p id="title_top_best">TOP BEST PHONES TODAY</p>
+                        <p id="sub_title_top_best">Discover the best smartphones available today, selected
+                            <br>
+                            for their powerful performance, exceptional
+                            <br>
+                            camera quality, and sleek modern design.
+                        </p>
+                    </div>
+                    <div class="col-4" href="/www/pages/top_best.html">
+                        <img id="image_top_best" src="assets/images/all_images_andvids/op15-02.jpg">
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <a href="/www/pages/quiz.html">
+            <img id="quiz_image" src="assets/images/all_images_andvids/creative-vector-illustration-bigQUIZ.png">
+        </a>
+    </div>
+
+
+    <div class="new_phone_pages">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <a href="/www/pages/lastest_news.html">
+                        <img id="image_lastest_news"
+                            src="assets/images/all_images_andvids/YouTube-Music-is-flooding-playli.png">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="/www/pages/phone.html">
+                        <img id="image_phone_page"
+                            src="assets/images/all_images_andvids/Motorola-is-finally-making-a-big.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 </body>
 
 <footer>
+    <div class="contact_area_box">
+        <div class="container text-center">
 
+            <div class="items_in_contact_box">
+                <p id="contact_title">LETS STAY IN CONTACT!</p>
+                <p id="contact_sub_title"> Have something that we are not aware of and want to share it?
+                    <br>
+                    Tell us about it by clicking the button below.
+                </p>
+                <div class="contact_button">
+                    <a href="/www/pages/contact.html"> <!--used to send user to contact page when pressed-->
+                        <button class="contact_button_2">Contact us →</button>
+                    </a>
+                </div>
+            </div>
 
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 
 </footer>
 
