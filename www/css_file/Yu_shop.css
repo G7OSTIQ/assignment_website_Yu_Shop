@@ -1,3 +1,10 @@
+a {
+    text-decoration: none !important;
+}
+
+/*nav section*/
+
+
 .topheader {
     display: flex;
     width: 100%;
@@ -19,20 +26,34 @@
 }
 
 
-.burger_menu, .signin {
+.burger_menu,.signin {
     height: 80px;
     width: 80px;
 
 }
 
-#burger_menu_icon {
-    stroke: #E2E1Df;
+
+.navmenus {
+    background-color: #494955;
+    width: 100%;
+    font-size: 24px;
 }
 
-#nav_colour:hover {
+#hover_effect:hover {
     background-color: #5f5f6e;
 }
 
+#hover_effect {
+    height: 60px;
+    padding-top: 10px;
+
+}
+
+#nav_colour {
+    color: #E2E1Df;
+}
+
+/* end of nav section */
 
 #phone_images {
     height: 350px;
@@ -87,38 +108,34 @@
     width: 540px;
 }
 
-a {
-  text-decoration: none !important;
-}
 
-
-
-#quiz_image{
+#quiz_image {
     width: 99%;
     padding-left: 1%;
 }
 
-.new_phone_pages{
+.new_phone_pages {
     padding-top: 3%;
 }
 
-#image_lastest_news, #image_phone_page{
+#image_lastest_news,
+#image_phone_page {
     width: 630px;
     height: 300px;
     border-radius: 15px;
 }
 
 
-.contact_area_box{
+.contact_area_box {
     padding-top: 3%;
 }
 
-.items_in_contact_box{
+.items_in_contact_box {
     border: solid 5px #29292F;
     border-radius: 15px;
 }
 
-#contact_title{
+#contact_title {
     padding-top: 5%;
     font-family: "Inter";
     font-weight: bolder;
@@ -126,17 +143,17 @@ a {
     color: #29292F;
 }
 
-#contact_sub_title{
+#contact_sub_title {
     font-family: "apple-system";
     font-size: 24px;
     color: #29292F;
 }
 
-.contact_button{
+.contact_button {
     margin-bottom: 3%;
 }
 
-.contact_button_2{
+.contact_button_2 {
     border: solid 5px #29292F;
     width: 50%;
     height: 45px;

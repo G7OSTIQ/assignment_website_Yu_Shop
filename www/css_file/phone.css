@@ -1,0 +1,58 @@
+/* main built in classes tags Section. This is to modify body,footer or main class ID Ex: a,h1,h2,body,footer */
+
+a {
+    text-decoration: none !important;
+}
+
+/* End of main built in classes tags */
+
+/*nav section*/
+.topheader {
+    display: flex;
+    width: 100%;
+    background-color: #29292F;
+}
+
+.signin {
+    height: 20px;
+    width: 20px;
+    margin-left: 80%;
+
+}
+
+.title_shop {
+    height: 80px;
+    width: 150px;
+    margin-left: 40%;
+
+}
+
+
+.burger_menu,.signin {
+    height: 80px;
+    width: 80px;
+
+}
+
+
+.navmenus {
+    background-color: #494955;
+    width: 100%;
+    font-size: 24px;
+}
+
+#hover_effect:hover {
+    background-color: #5f5f6e;
+}
+
+#hover_effect {
+    height: 60px;
+    padding-top: 10px;
+
+}
+
+#nav_colour {
+    color: #E2E1Df;
+}
+
+/* end of nav section */
