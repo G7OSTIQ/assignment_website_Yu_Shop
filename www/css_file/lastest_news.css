@@ -15,8 +15,8 @@ a {
 }
 
 .signin {
-    height: 20px;
-    width: 20px;
+    height: 80px;
+    width: 80px;
     margin-left: 80%;
 
 }
@@ -32,7 +32,6 @@ a {
 .burger_menu,.signin {
     height: 80px;
     width: 80px;
-
 }
 
 
@@ -65,65 +64,76 @@ a {
 
 /* end of nav section */
 
+/*First news section */
 
-.phone_boxes_table{
-    padding-top: 2%;
-    margin-left: 2%;
+.background_box{
+    background-color: #29292F;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 1%;
+     box-shadow: -7px 10px 7px -2px #E2E1Df;
 }
 
-.phone_shop_info_box{
-    background-color: #E2E1Df;
+#first_image_size, #sec_images_size{
+    height: 500px;
+    width: 100%;
     border-radius: 15px;
-    width: 500px;
 }
 
-#rating_image{
-    height: 50px;
-    width: 50px;
+#first_image_size{
+    border-radius: 0px 0px 15px 15px;
 }
 
-.rating{
-    color: #0000ce;
-    padding-top: 5%;
+
+.first_news_text_box{
     font-family: 'Inter';
     font-weight: bolder;
-    font-size: 20px;
-}
-
-#fix_phone_size_image{
-    height: 350px;
-    padding-left: 7%;
-    margin: 7%;
-}
-
-.phone_names{
-    font-family: 'Inter';
-    font-weight: bolder;
-    font-size: 21px;
-    color:#29292F;
-    padding-top: 3%;
-}
-
-.phone_names p {  /* This is to remove the default p margin below */
-    margin: 0;
-}
-
-.phone_price_button{
-    margin-top: 55%;
-}
-
-.price_buton{
-    font-family: 'Inter';
-    font-weight:bolder;
-    font-size: 20px;
-    background-color: #000080;
+    font-size: 32px;
+    padding-top: 15%;
     color: #E2E1Df;
-    width: 90%;
-    height: 50px;
-    border-radius: 15px;
-    border: solid 0px; /*It's 0px to remove the default boarder button */
 }
 
-.price_buton:hover{
-    background-color: #0000ce;
+.sec_news_image{
+    margin-top: 3%;
 }
+
+.sec_news_text_box{
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 32px;
+    padding-top: 2%;
+    padding-left: 2%;
+    color: #E2E1Df;
+}
+
+#refrence_name{
+    font-family: '-apple-system';
+    font-size: 17px;
+    padding-top: 10%;
+}
+
+#top_refrence_name{
+    font-family: '-apple-system';
+    font-size: 17px;
+}
+
+.other_news_info{
+    margin-left: 1%;
+}
+
+#other_image_size{
+    height: 150px;
+    width:350px;
+    border-radius: 15px;
+}
+
+.other_news_info{
+    width: 100%;
+}
+
+.other_text_area{
+    margin-left: 4%;
+    font-family: 'Inter';
+    font-size: 17px;
+}
+
+

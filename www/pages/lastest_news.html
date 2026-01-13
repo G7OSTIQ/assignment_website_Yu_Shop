@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/www/css_file/lastest_news.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> <!--JQuery used for burger menu to toggel-->
+    <script src="/www/java/yu_shop_funtions.js"></script>
+    <title>Yu Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<header>
+
+    <div class="nacbarbox">
+        <div class="row">
+            <div class="navbox">
+                <div class="topheader">
+                    <div class="col">
+                        <div class="burger_menu" id="navbar-toggler" onclick="slideUpDown()"> <img id="burger_menu_icon"
+                                src="/www/assets/images/icons/bars-solid-full.svg" href="/www/index.html"></div>
+                    </div>
+                    <div class="col">
+                        <a href="/www/index.html">
+                            <img class="title_shop" src="/www/assets/images/icons/1x/Artboard 1.png">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <div class="signin"> <img src="/www/assets/images/icons/user-solid-full.svg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="text-center">
+            <div class="navmenus">
+                <nav>
+                    <div class="row">
+                        <div class="col" id="hover_effect">
+                            <!--This is called hover_effect_selected because the user is in the phone page therefore it will have a different colour-->
+                            <a id="nav_colour" href="/www/pages/phone.html">Phone</a>
+                        </div>
+                        <div class="col" id="hover_effect_selected">
+                            <a id="nav_colour" href="/www/pages/lastest_news.html">News</a>
+                        </div>
+                        <div class="col" id="hover_effect">
+                            <a id="nav_colour" href="/www/pages/quiz.html">Discount Quiz</a>
+                        </div>
+                        <div class="col" id="hover_effect">
+                            <a id="nav_colour" href="/www/pages/top_best.html">Top Best</a>
+                        </div>
+                        <div class="col" id="hover_effect">
+                            <a id="nav_colour" href="/www/pages/contact.html">Contact Us</a>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div class="background_box">
+        <div class="first_news">
+            <div class="row">
+                <div class="col">
+                    <div class="first_news_image">
+                        <img id="first_image_size"
+                            src="/www/assets/images/all_images_andvids/news/Motorola-is-officially-taking-on.png">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="first_news_text_box">
+                        <p>Motorola is officially
+                            <br>
+                            taking on the Galaxy Z <br>
+                            Fold 7 with the first-ever <br>
+                            Razr Fold
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="sec_news_image">
+                        <img id="sec_images_size"
+                            src="/www/assets/images/all_images_andvids/news/I-looked-in-my-crystal-ball-and.png">
+                    </div>
+
+                    <div class="sec_news_text_box">
+                        <p>I looked in my crystal ball and it
+                            <br>showed me what the OnePlus 16
+                            <br>Ultra will be like
+                        </p>
+                        <p id="top_refrence_name">Sebastian Pier</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="sec_news_image">
+                        <img id="sec_images_size"
+                            src="/www/assets/images/all_images_andvids/news/Motorola-is-back-in-the-non-fold.png">
+                    </div>
+
+                    <div class="sec_news_text_box">
+                        <p>Motorola is back in the non-foldable
+                            <br>flagship game with the luxurious
+                            <br>Signature
+                        </p>
+                        <p id="top_refrence_name">Adrian Diaconescu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--Below more new section-->
+    <div class="other_news_info">
+        <div class="row">
+            <div class="col">
+                <div class="other_news_box">
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="images_other_news">
+                                <img id="other_image_size"
+                                    src="/www/assets/images/all_images_andvids/news/Samsungs-low-cost-Galaxy-A17-5G.png">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="other_text_area">
+                                <p> Samsung's low-cost Galaxy A17 5G and
+                                    <br>Galaxy Tab A11+ 5G are finally starting their
+                                    <br>US rollouts
+                                </p>
+                                <p id="refrence_name">Adrian Diaconescu •17m ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="other_news_box">
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="images_other_news">
+                                <img id="other_image_size"
+                                    src="/www/assets/images/all_images_andvids/news/Meta-is-overloaded-the-shortages.png">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="other_text_area">
+                                <p> Meta is overloaded, the shortages are real: 
+                                    <br>its Ray-Ban Display glasses go America <br>
+                                    First
+                                </p>
+                                <p id="refrence_name">Sebastian Pier •40m ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="other_news_info">
+        <div class="row">
+            <div class="col">
+                <div class="other_news_box">
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="images_other_news">
+                                <img id="other_image_size"
+                                    src="/www/assets/images/all_images_andvids/news/Samsung-may-be-securing-a-major.png">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="other_text_area">
+                                <p> Samsung may be securing 
+                                    a major Qualcomm <br>
+                                    order
+                                </p>
+                                <p id="refrence_name">Polina Kovalakova •4h ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="other_news_box">
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="images_other_news">
+                                <img id="other_image_size"
+                                    src="/www/assets/images/all_images_andvids/news/Apple-locks-in-NAND-for-2026-but.png">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="other_text_area">
+                                <p> Apple locks in NAND for 2026, but 
+                                    <br>DRAM prices could still push <br>
+                                    iPhones higher
+                                </p>
+                                <p id="refrence_name">Adrian Diaconescu •5hr ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="other_news_info">
+        <div class="row">
+            <div class="col">
+                <div class="other_news_box">
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="images_other_news">
+                                <img id="other_image_size"
+                                    src="/www/assets/images/all_images_andvids/news/WhatsApp-just-rolled-out-an-upda.png">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="other_text_area">
+                                <p> WhatsApp just rolled out an 
+                                    <br>update that makes group chats 
+                                    <br>
+                                    less chaotic
+                                </p>
+                                <p id="refrence_name">Johanna Romero •1day agoo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="other_news_box">
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="images_other_news">
+                                <img id="other_image_size"
+                                    src="/www/assets/images/all_images_andvids/news/New-T-Mobile-plan-packs-more-val.png">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="other_text_area">
+                                <p> New T-Mobile plan packs more value but 
+                                    <br>stops short of being the cheapest
+                                </p>
+                                <p id="refrence_name">Anam Hamid •2day ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+</body>
+
+
+</html>
