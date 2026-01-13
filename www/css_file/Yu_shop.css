@@ -69,6 +69,7 @@ a {
 }
 
 .phone_text_info {
+    color: #29292F;
     padding-top: 3%;
     font-family: "Inter";
     font-weight: bolder;
@@ -77,6 +78,7 @@ a {
     box-shadow: -7px 7px 7px -2px #E2E1Df;
     /* first one is to move the shadow left or right, sec moves the shaows up or down, third how much blur, last one bigger or smaller the shadow */
 }
+
 
 #phone_price {
     color: #000080;
@@ -118,8 +120,7 @@ a {
     padding-top: 3%;
 }
 
-#image_lastest_news,
-#image_phone_page {
+#image_lastest_news, #image_phone_page {
     width: 630px;
     height: 300px;
     border-radius: 15px;

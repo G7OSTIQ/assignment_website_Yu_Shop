@@ -4,6 +4,7 @@ a {
     text-decoration: none !important;
 }
 
+
 /* End of main built in classes tags */
 
 /*nav section*/
@@ -45,14 +46,83 @@ a {
     background-color: #5f5f6e;
 }
 
-#hover_effect {
+#hover_effect, #hover_effect_selected {
     height: 60px;
     padding-top: 10px;
 
 }
+
+#hover_effect_selected{
+    background-color: #29292F;
+}
+
+
 
 #nav_colour {
     color: #E2E1Df;
 }
 
 /* end of nav section */
+
+
+.phone_boxes_table{
+    padding-top: 2%;
+    margin-left: 2%;
+}
+
+.phone_shop_info_box{
+    background-color: #E2E1Df;
+    border-radius: 15px;
+    width: 500px;
+}
+
+#rating_image{
+    height: 50px;
+    width: 50px;
+}
+
+.rating{
+    color: #0000ce;
+    padding-top: 5%;
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#fix_phone_size_image{
+    height: 350px;
+    padding-left: 7%;
+    margin: 7%;
+}
+
+.phone_names{
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 21px;
+    color:#29292F;
+    padding-top: 3%;
+}
+
+.phone_names p {  /* This is to remove the default p margin below */
+    margin: 0;
+}
+
+.phone_price_button{
+    margin-top: 55%;
+}
+
+.price_buton{
+    font-family: 'Inter';
+    font-weight:bolder;
+    font-size: 20px;
+    background-color: #000080;
+    color: #E2E1Df;
+    width: 90%;
+    height: 50px;
+    border-radius: 15px;
+    border: solid 0px; /*It's 0px to remove the default boarder button */
+}
+
+.price_buton:hover{
+    background-color: #0000ce;
+}
