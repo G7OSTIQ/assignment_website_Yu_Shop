@@ -26,7 +26,8 @@ a {
 }
 
 
-.burger_menu,.signin {
+.burger_menu,
+.signin {
     height: 80px;
     width: 80px;
 
@@ -120,12 +121,16 @@ a {
     padding-top: 3%;
 }
 
-#image_lastest_news, #image_phone_page {
+#image_lastest_news,
+#image_phone_page {
     width: 630px;
     height: 300px;
     border-radius: 15px;
 }
 
+
+
+/*Contact Section */
 
 .contact_area_box {
     padding-top: 3%;
@@ -159,4 +164,8 @@ a {
     width: 50%;
     height: 45px;
     border-radius: 15px;
+    font-family: 'Inter';
+    font-size: 17px;
 }
+
+/* End of Contact Section */
