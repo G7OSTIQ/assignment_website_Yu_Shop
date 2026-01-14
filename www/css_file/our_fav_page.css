@@ -1,0 +1,160 @@
+/* main built in classes tags Section. This is to modify body,footer or main class ID Ex: a,h1,h2,body,footer */
+
+a {
+    text-decoration: none !important;
+}
+
+
+/* End of main built in classes tags */
+
+/*nav section*/
+.topheader {
+    display: flex;
+    width: 100%;
+    background-color: #29292F;
+}
+
+.signin {
+    height: 20px;
+    width: 20px;
+    margin-left: 80%;
+
+}
+
+.title_shop {
+    height: 80px;
+    width: 150px;
+    margin-left: 40%;
+
+}
+
+
+.burger_menu,.signin {
+    height: 80px;
+    width: 80px;
+
+}
+
+
+.navmenus {
+    background-color: #494955;
+    width: 100%;
+    font-size: 24px;
+    display: none;
+}
+
+#hover_effect:hover {
+    background-color: #5f5f6e;
+}
+
+#hover_effect, #hover_effect_selected {
+    height: 60px;
+    padding-top: 10px;
+
+}
+
+#hover_effect_selected{
+    background-color: #29292F;
+}
+
+
+
+#nav_colour {
+    color: #E2E1Df;
+}
+
+/* end of nav section */
+
+.backgroundbox{
+    background-color: #29292F;
+}
+
+.page_title{
+    font-family: 'Inter';
+    color: #E2E1Df;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.top_page_box{
+    background-color: #E2E1Df;
+    height: 100%;
+}
+
+.inner_text_area_box{
+    margin-left: 3%;
+    margin-top: 3%;
+    color: #29292F;
+    font-size: 24px;
+}
+
+#phone_title, #middle_phone_title{
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: bolder;
+    color: #29292F;
+}
+
+#phone_sub_info, #phone_qoutes, #middle_phone_sub_info{
+    font-family: -apple-system;
+    color: #29292F;
+    font-size: 24px;
+}
+
+#phone_qoutes{
+    padding-top: 5%;
+}
+
+.phone_button{
+    margin-left: 3%;
+}
+
+#phone_size_fixing{
+    width: 500px;
+    height: 400px;
+    margin-left: 7%;
+}
+
+#price_buton{
+    font-family: 'Inter';
+    font-weight:bolder;
+    font-size: 20px;
+    background-color: #000080;
+    color: #E2E1Df;
+    width: 30%;
+    height: 50px;
+    border-radius: 15px;
+    border: solid 0px; /*It's 0px to remove the default boarder button */
+}
+
+#price_buton:hover{
+    background-color: #0000ce;
+}
+
+.middle_phone_button{
+    margin-top: 5%;
+}
+
+#middle_phone_size_fixing{
+    width: 500px;
+    height: 400px;
+}
+
+.top_page_box_middle{
+    background-color: #E2E1Df;
+    margin-top: 1%;
+}
+
+.middle_inner_text_area_box{
+    margin-top: 5%;
+    color: #29292F;
+    font-size: 24px;
+}
+
+.top_page_box_bottom{
+    margin-top: 1%;
+    background-color: #E2E1Df;
+    height: 100%;
+}
