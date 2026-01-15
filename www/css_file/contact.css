@@ -128,7 +128,7 @@ p{
     border: solid 0px; /*It's 0px to remove the default boarder button */
 }
 
-.price_buton:hover{
+.confirm:hover{
     background-color: #0000ce;
 }
 
