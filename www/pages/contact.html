@@ -13,7 +13,7 @@
 </head>
 
 <header>
-
+    <!--The nav Area where there is the burger menu, logo, and profile icon section-->
     <div class="nacbarbox">
         <div class="row">
             <div class="navbox">
@@ -35,7 +35,7 @@
         </div>
 
 
-
+        <!--Inside the nav area this will be hidden unless the burger menu is press-->
         <div class="text-center">
             <div class="navmenus">
                 <nav>
@@ -62,10 +62,13 @@
             </div>
         </div>
     </div>
+
+    <!--End of nav section-->
 </header>
 
 <body>
 
+     <!--Text above the conact form Section-->
     <div class="contact_title_box">
         <div class="row">
             <div class="col">
@@ -80,55 +83,59 @@
 
 
     </div>
+    <!-- End of Text above the conact form Section-->
+
+
+    <!--Contact form Section-->
 
     <div class="2_boxs">
         <div class="row">
             <div class="col">
                 <div class="form_box">
-                    <form action="mailto:asdf@qwert.com" method="post" enctype="text/plain">
+                    <form action="mailto:christopher.camilleri.e23817@mcast.edu.mt" method="post" enctype="text/plain">
                         <div class="row">
                             <div class="col">
                                 <div class="inner_form_box">
                                     <p>Username</p>
-                                    <input type="text" placeholder="Please enter your name" class="texy_input"
+                                    <input type="text" placeholder="Please enter your Name" class="texy_input"
                                         id="username" name="username">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="inner_form_box">
                                     <p>Surname</p>
-                                    <input type="text" placeholder="Please enter your name" class="texy_input"
+                                    <input type="text" placeholder="Please enter your Surname" class="texy_input"
                                         id="surname" name="surname">
                                 </div>
                             </div>
                             <div class="inner_form_box">
                                 <p for="email">Email Address</p>
-                                <input type="email" placeholder="Please enter your email" class="text_input_email"
+                                <input type="email" placeholder="Please enter your Email" class="text_input_email"
                                     name="email" id="email">
                             </div>
                             <div class="inner_form_box">
                                 <p for="email">Business email</p>
-                                <input type="email" placeholder="Please enter your email" class="text_input_email"
-                                    name="email" id="email">
+                                <input type="email" placeholder="Please enter your Business Email" class="text_input_email"
+                                    name="email" id="bus_email">
                             </div>
                             <div class="col">
                                 <div class="inner_form_box">
                                     <p>Locaiton</p>
-                                    <input type="text" placeholder="Please enter your name" class="texy_input"
+                                    <input type="text" placeholder="Please enter your location" class="texy_input"
                                         id="location" name="username">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="inner_form_box">
                                     <p>Phone Number</p>
-                                    <input type="text" placeholder="Please enter your name" class="texy_input"
+                                    <input type="text" placeholder="Please enter your Phone Number" class="texy_input"
                                         id="number" name="number">
                                 </div>
                             </div>
                             <div class="buttons_box">
                                 <div class="row">
-                                    <div class="col"><button class="reset" type="reset">Reset</button></div>
-                                    <div class="col"> <button class="confirm" type="confirm">Confirm</button></div>
+                                    <div class="col"><button class="reset" type="reset" onclick="restingForm()">Reset</button></div>
+                                    <div class="col"> <button class="confirm" type="confirm" onclick="checkingForm(event)">Confirm</button></div>
                                 </div>
                             </div>
                         </div>
@@ -143,6 +150,8 @@
             </div>
         </div>
     </div>
+
+<!-- End of Contact form Section-->
 
 
 
