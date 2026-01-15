@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css_file/contact.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> <!--JQuery used for burger menu to toggel-->
+    <script src="../java/yu_shop_funtions.js"></script>
+    <title>Yu Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<header>
+
+    <div class="nacbarbox">
+        <div class="row">
+            <div class="navbox">
+                <div class="topheader">
+                    <div class="col">
+                        <div class="burger_menu" id="navbar-toggler" onclick="slideUpDown()"> <img id="burger_menu_icon"
+                                src="../assets/images/icons/bars-solid-full.svg" href="../index.html"></div>
+                    </div>
+                    <div class="col">
+                        <a href="../index.html">
+                            <img class="title_shop" src="../assets/images/icons/1x/Artboard 1.png">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <div class="signin"> <img src="../assets/images/icons/user-solid-full.svg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="text-center">
+            <div class="navmenus">
+                <nav>
+                    <div class="row">
+                        <div class="col" id="hover_effect">
+                            <!--This is called hover_effect_selected because the user is in the phone page therefore it will have a different colour-->
+                            <a id="nav_colour" href="../pages/phone.html">Phone</a>
+                        </div>
+                        <div class="col" id="hover_effect">
+                            <a id="nav_colour" href="../pages/lastest_news.html">News</a>
+                        </div>
+                        <div class="col" id="hover_effect">
+                            <a id="nav_colour" href="../pages/quiz.html">Discount Quiz</a>
+                        </div>
+                        <div class="col" id="hover_effect">
+                            <a id="nav_colour" href="../pages/top_best.html">Top Best</a>
+                        </div>
+                        <div class="col" id="hover_effect_selected">
+                            <a id="nav_colour" href="../pages/contact.html">Contact Us</a>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+
+    <div class="contact_title_box">
+        <div class="row">
+            <div class="col">
+                <p id="contact_title">Contact Us</p>
+                <p id="contact_subtitle">Got any questions feel free to send us anything</p>
+
+            </div>
+            <div class="col">
+                <p id="our_location">Our location</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="2_boxs">
+        <div class="row">
+            <div class="col">
+                <div class="form_box">
+                    <form action="mailto:asdf@qwert.com" method="post" enctype="text/plain">
+                        <div class="row">
+                            <div class="col">
+                                <div class="inner_form_box">
+                                    <p>Username</p>
+                                    <input type="text" placeholder="Please enter your name" class="texy_input"
+                                        id="username" name="username">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="inner_form_box">
+                                    <p>Surname</p>
+                                    <input type="text" placeholder="Please enter your name" class="texy_input"
+                                        id="surname" name="surname">
+                                </div>
+                            </div>
+                            <div class="inner_form_box">
+                                <p for="email">Email Address</p>
+                                <input type="email" placeholder="Please enter your email" class="text_input_email"
+                                    name="email" id="email">
+                            </div>
+                            <div class="inner_form_box">
+                                <p for="email">Business email</p>
+                                <input type="email" placeholder="Please enter your email" class="text_input_email"
+                                    name="email" id="email">
+                            </div>
+                            <div class="col">
+                                <div class="inner_form_box">
+                                    <p>Locaiton</p>
+                                    <input type="text" placeholder="Please enter your name" class="texy_input"
+                                        id="location" name="username">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="inner_form_box">
+                                    <p>Phone Number</p>
+                                    <input type="text" placeholder="Please enter your name" class="texy_input"
+                                        id="number" name="number">
+                                </div>
+                            </div>
+                            <div class="buttons_box">
+                                <div class="row">
+                                    <div class="col"><button class="reset" type="reset">Reset</button></div>
+                                    <div class="col"> <button class="confirm" type="confirm">Confirm</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col">
+                <div class="images_box">
+                    <img id="image_size_fix" src="../assets/images/all_images_andvids/unnamed.jpg">
+                    <img id="image_size_fix" src="../assets/images/all_images_andvids/samsung-design-p5-1-1024x568.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
