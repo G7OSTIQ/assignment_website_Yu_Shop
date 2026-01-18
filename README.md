@@ -5,37 +5,45 @@ In this Doc will guide you throught this website assignment according to the pla
 
 Please open the assignment from index.html
 
+____________________________________________________________________
 
 Opening html files:
 
-Home page:                   Index.html
+Home page:                                      Index.html(To go back to the home page please press on the top logo called "YuShop" from the website in the nav)
 
 From "pages" Folder:
-Phone Page:                  phone.html
-Selected Phone detail Page:  poco_f8_ultra_html
-Latest News Page:            lastest_news.html
-Discount Quiz Page:          quiz.html
-Top Best Phones:             top_best.html
-Our Top Favourites Page:     our_fav_page.html
-Contact Page:                contact.html
+Phone Page:                                     phone.html
+Selected Phone detail Page (All the phones):    Go to page folder and open phone_pages (this has all the phone pages inside)
+Latest News Page:                               lastest_news.html
+Discount Quiz Page:                             quiz.html
+Top Best Phones:                                top_best.html
+Our Top Favourites Page:                        our_fav_page.html
+Contact Page:                                   contact.html
+
+
+____________________________________________________________________
 
 Opening css files:
 
-Home page:                   Yu_shop.css
+Home page:                                      Yu_shop.css
 
 From "css_file" Folder:
-Phone Page:                  phone.css
-Selected Phone detail Page:  inner_phone_page.css
-Latest News Page:            lastest_news.css
-Discount Quiz Page:          quiz.css
-Top Best Phones:             top_best.css
-Our Top Favourites Page:     our_fav_page.css
-Contact Page:                contact.css
+Phone Page:                                     phone.css
+Selected Phone detail Page (All the phones):    inner_phone_page.css
+Latest News Page:                               lastest_news.css
+Discount Quiz Page:                             quiz.css
+Top Best Phones:                                top_best.css
+Our Top Favourites Page:                        our_fav_page.css
+Contact Page:                                   contact.css
+
+
+____________________________________________________________________
 
 Java file please open folder called (java) :
 
 ju_shop_funtions.js is the main code
 
+____________________________________________________________________
 
 assets folder:
 This folder is where all images/vids are from

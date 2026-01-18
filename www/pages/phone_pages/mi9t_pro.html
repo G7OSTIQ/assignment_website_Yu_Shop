@@ -1,0 +1,835 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/www/css_file/inner_phone_page.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> <!--JQuery used for burger menu to toggel-->
+    <script src="../../java/yu_shop_funtions.js"></script>
+    <title>Yu Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!--This part is for the gallery section-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                margin: 0,
+                loop: true,
+                autoWidth: true
+
+            });
+        });
+
+    </script>
+
+</head>
+
+<header>
+    <!--The nav Area where there is the burger menu, logo, and profile icon section-->
+    <div class="nacbarbox">
+        <div class="row">
+            <div class="navbox">
+                <div class="topheader">
+                    <div class="col">
+                        <div class="burger_menu" id="navbar-toggler" onclick="slideUpDown()"> <img id="burger_menu_icon"
+                                src="../../assets/images/icons/bars-solid-full.svg" href="../../index.html"></div>
+                    </div>
+                    <div class="col">
+                        <a href="../../index.html">
+                            <img class="title_shop" src="../../assets/images/icons/1x/Artboard 1.png">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <div class="signin"> <img src="../../assets/images/icons/user-solid-full.svg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Inside the nav area this will be hidden unless the burger menu is press-->
+        <div class="text-center">
+            <div class="navmenus">
+                <nav>
+                    <div class="row">
+                        <div class="col" id="hover_effect">
+                            <!--This is called hover_effect_selected because the user is in the phone page therefore it will have a different colour-->
+                            <a id="nav_colour" href="../../pages/phone.html">Phone</a>
+                        </div>
+                        <div class="col" id="hover_effect">
+                            <a id="nav_colour" href="../../pages/lastest_news.html">News</a>
+                        </div>
+                        <div class="col" id="hover_effect">
+                            <a id="nav_colour" href="../../pages/quiz.html">Discount Quiz</a>
+                        </div>
+                        <div class="col" id="hover_effect">
+                            <a id="nav_colour" href="../../pages/top_best.html">Top Best</a>
+                        </div>
+                        <div class="col" id="hover_effect">
+                            <a id="nav_colour" href="../../pages/contact.html">Contact Us</a>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!--End of nav section-->
+</header>
+
+<body>
+
+    <!--The top box are where there is the phone,name,button price and video section-->
+    <div class="top_box_area">
+        <div class="row">
+            <div class="col">
+                <div class="phone_image_area">
+                    <div class="row">
+                        <div class="col fixing">
+                            <div class="phone_box text-center">
+                                <img id="fix_phone_size_image"
+                                    src="../../assets/images/all_images_andvids/mi9t pro/thumb_279155_phone_front_big.jpeg">
+                                <div id="dialog"></div>
+                                <div data-bs-target="#exampleModalToggle" data-bs-toggle="modal"
+                                    class="small_camera_area">
+                                    <p id="number_imgs">6 </p>
+                                    <img id="fix_camera_icon" src="../../assets/images/icons/camera-solid-full.svg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="phone_names">
+                                <p id="sub_heading_title">Price and specifications on</p>
+                                <p>Xiaomi Mi 9T Pro</p>
+                            </div>
+                            <div class="rating">
+                                <p>7.8 <img id="rating_image" src="../../assets/images/icons/chart-area-solid-full.svg">
+                                </p>
+
+                            </div>
+                            <div class="phone_price_button">
+                                <p>Buy Now:</p>
+                                <button onclick="addToCardfuntion()" class="price_buton">€299.00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <!--Video section area-->
+                <div class="vidoe_box">
+                    <video id="video_fix_size" controls>
+                        <source src="../../assets/images/all_images_andvids/mi9t pro/video_2026-01-10_19-32-09.mp4"
+                            type="video/mp4">
+                        <source src="../../assets/images/all_images_andvids/mi9t pro/video_2026-01-10_19-32-09.mp4"
+                            type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <!--End of Video section area-->
+            </div>
+        </div>
+    </div>
+    <!-- End of The top box are where there is the phone,name,button price and video section-->
+
+
+    <!-- This is the summary box area where thers is the 3 boxes of value of money, pros and cons, and small specs info-->
+    <div class="summary_box_area">
+        <p><span id="title">Summary</span></p>
+        <!--Span is used here for the dox shadow will not take the whole weight-->
+        <div class="main_summary_box_area">
+            <div class="row">
+                <div class="col">
+                    <div class="summary_top_left_box">
+                        <div class="row">
+                            <div class="col-6">
+                                <p>Value for money Score</p>
+                                <p id="rating_number">7.8</p>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <img class="rating_heart_icon"
+                                                src="../../assets/images/icons/chart-area-solid-full.svg">
+                                        </div>
+                                        <div class="col">
+
+                                            <svg onclick="toggleHeart(this)" class="heart_svg"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="summary_top_right_box">
+                        <div class="row">
+                            <div class="col">
+                                <div class="pros_text">
+                                    <p id="pros_green">Pros</p>
+                                    <p>• Battery
+                                        <br>• Powerful SOC
+                                        <br>• Price
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="Cons_text">
+                                    <p id="Cons_red">Cons</p>
+                                    <p>• Design
+                                        <br>• No MicroSD Slot
+                                        <br>• Wierd sticker
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="summary_bottom_box">
+                <div class="row">
+                    <div class="col">
+                        <div class="spec_Icons">
+                            <img src="../../assets/images/icons/Display.svg">
+                        </div>
+                        <div class="summery_phone_text">
+                            <p id="inner_summary_text_bold">6.9"
+                                <br>AMOLED
+                            </p>
+                            <p>QHD
+                                <br>19.5:9
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="spec_Icons">
+                            <img src="../../assets/images/icons/Phone_icon.svg">
+                        </div>
+                        <div class="summery_phone_text">
+                            <p id="inner_summary_text_bold">218 g
+                                <br>77.8 mm
+                                <br>163.3 mm
+                                <br>7.9 mm
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="spec_Icons">
+                            <img src="../../assets/images/icons/Cpu.svg">
+                        </div>
+                        <div class="summery_phone_text">
+                            <p id="inner_summary_text_bold">SnapD. 8 Elite
+                                <br>G5
+                            </p>
+                            <p>Octa-Core
+                                <br>12 GB
+                                <br>RAM
+                                <br>256 GB
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="spec_Icons">
+                            <img src="../../assets/images/icons/battery-full-solid-full.svg">
+                        </div>
+                        <div class="summery_phone_text">
+                            <p id="inner_summary_text_bold">6500 mAh
+                                <br>100 W
+                            </p>
+                            <p>~ 67h
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="spec_Icons">
+                            <img src="../../assets/images/icons/camera-solid-full.svg">
+                        </div>
+                        <div class="summery_phone_text">
+                            <div class="row">
+                                <div class="col">
+                                    <p id="inner_summary_text_bold">1.
+                                        <br>50 Mpx
+                                        <br>ƒ/1.65
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <p id="inner_summary_text_bold">2.
+                                        <br>50 Mpx
+                                        <br>ƒ/2.4
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <p id="inner_summary_text_bold">3.
+                                        <br>50 Mpx
+                                        <br>ƒ/3.0
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="spec_Icons">
+                            <img src="../../assets/images/icons/wifi-solid-full.svg">
+                        </div>
+                        <div class="summery_phone_text">
+                            <div class="row">
+                                <div class="col">
+                                    <p id="5G">5G
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <p id="Green_G_Wifi">4G
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <p id="Green_G_Wifi">3G
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="last_box_andriod_icon">
+                            <div class="spec_Icons">
+                                <img class="spec_Icons" src="../../assets/images/icons/Android.png">
+                            </div>
+                            <div class="summery_phone_text">
+                                <p id="inner_summary_text_bold">xiaomi
+                                    <br>Android 15
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End This is the summary box area where thers is the 3 boxes of value of money, pros and cons, and small specs info-->
+
+
+    <!--This is the Spec of the phone infomation such as, brand, release date, screen, processor, graphics all the way to the end of the page section-->
+
+    <div class="specs_box">
+        <p><span id="title">Specifications</span></p>
+        <div class="inner_specs_boxes text-center">
+            <div class="Title_specs_boxes">
+                <p id="title_specs">Brand</p>
+            </div>
+        </div>
+        <div class="detailed_specs">
+            <div class="row">
+                <div class="col-2">
+                    <div class="left_side_side_text">
+                        <p>Brand</p>
+                        <p>Aliases</p>
+                        <p>Runs</p>
+                        <p>Software</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="right_side_text">
+                        <p>POCO</p>
+                        <p>25102PCBEG2023, 25102PCBEG</p>
+                        <p>Android</p>
+                        <p>xiaomi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="inner_specs_boxes text-center">
+            <div class="Title_specs_boxes">
+                <p id="title_specs">Xiaomi Mi 9T Pro prices</p>
+            </div>
+        </div>
+        <div class="detailed_specs">
+            <div class="row">
+                <div class="col-2">
+                    <div class="left_side_side_text">
+                        <p>Versions and prices</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="right_side_text">
+                        <p>Xiaomi Mi 9T Pro • Global · 12GB · 256GB
+                            <br>
+                            Xiaomi Mi 9T Pro • Global · 16GB · 512GB
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="inner_specs_boxes text-center">
+            <div class="Title_specs_boxes">
+                <p id="title_specs">Release Date</p>
+            </div>
+        </div>
+        <div class="detailed_specs">
+            <div class="row">
+                <div class="col-2">
+                    <div class="left_side_side_text">
+                        <p>Release date</p>
+                        <p>Launch price</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="right_side_text">
+                        <p>November 2025, 1 month ago</p>
+                        <p>€ 699.99 ($ 814.41)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="inner_specs_boxes text-center">
+            <div class="Title_specs_boxes">
+                <p id="title_specs">Screen</p>
+            </div>
+        </div>
+        <div class="detailed_specs">
+            <div class="row">
+                <div class="col-2">
+                    <div class="left_side_side_text">
+                        <p>Diagonal</p>
+                        <p>Type</p>
+                        <p>Aspect Ratio</p>
+                        <p>Resolution</p>
+                        <p>Density</p>
+                        <p>Others</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="right_side_text">
+                        <p>6.9"</p>
+                        <p>AMOLED</p>
+                        <p>19.5:9</p>
+                        <p>1200 x 2608 px • QHD</p>
+                        <p>416 ppi • Very high density</p>
+                        <div class="row">
+                            <div class="col">
+                                <p>• Hole-punch Notch
+                                    <br>• 1-120 Hz refresh rate
+                                    <br>• TUV Rheinland Low Blue Light
+                                    <br>• TÜV Rheinland Flicker-free Certified
+                                    <br>• TÜV Rheinland Full Care Display 3.0
+                                    <br>• Refresh rate 120 Hz
+                                    <br>• Touch sampling rate 480 Hz
+                                    <br>• Peak brightness - 3500 cd/m²
+                                    <br>• Always-On Display
+                                    <br>• TÜV Rheinland Eye Comfort Certification
+                                </p>
+                            </div>
+                            <div class="col">
+                                <p>• HDR10+
+                                    <br>• DCI-P3
+                                    <br>• DC dimming
+                                    <br>• sRGB standard
+                                    <br>• 12 Bits panel (10-bit +2-bit FRC)
+                                    <br>• Dolby Vision
+                                    <br>• Scratch resistant
+                                    <br>• Capacitive
+                                    <br>• Multi-touch
+                                    <br>• Frameless
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="inner_specs_boxes text-center">
+            <div class="Title_specs_boxes">
+                <p id="title_specs">Processor</p>
+            </div>
+        </div>
+        <div class="detailed_specs">
+            <div class="row">
+                <div class="col-2">
+                    <div class="left_side_side_text">
+                        <p>Model</p>
+                        <p>CPU</p>
+                        <p>Nanometer</p>
+                        <p>Type</p>
+                        <p>Frequency</p>
+                        <p>64 Bits</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="right_side_text">
+                        <p>Qualcomm Snapdragon 8 Elite Gen 5</p>
+                        <p>2x4.61 GHz ARM + 6x3.63 GHz ARM</p>
+                        <p>3 nm</p>
+                        <p>Octa-Core</p>
+                        <p>4.61 GHz</p>
+                        <p>Yes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="inner_specs_boxes text-center">
+            <div class="Title_specs_boxes">
+                <p id="title_specs">Graphics</p>
+            </div>
+        </div>
+        <div class="detailed_specs">
+            <div class="row">
+                <div class="col-2">
+                    <div class="left_side_side_text">
+                        <p>GPU</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="right_side_text">
+                        <p>Adreno 840 1.2 GHz</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="inner_specs_boxes text-center">
+            <div class="Title_specs_boxes">
+                <p id="title_specs">RAM</p>
+            </div>
+        </div>
+        <div class="detailed_specs">
+            <div class="row">
+                <div class="col-2">
+                    <div class="left_side_side_text">
+                        <p>RAM</p>
+                        <p>Type</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="right_side_text">
+                        <p>12 GB/16 GB</p>
+                        <p>RAM LPDDR5X</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inner_specs_boxes text-center">
+            <div class="Title_specs_boxes">
+                <p id="title_specs">Storage</p>
+            </div>
+        </div>
+        <div class="detailed_specs">
+            <div class="row">
+                <div class="col-2">
+                    <div class="left_side_side_text">
+                        <p>Capacity</p>
+                        <p>Type</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="right_side_text">
+                        <p>256 GB</p>
+                        <p>UFS Storage 4.1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inner_specs_boxes text-center">
+            <div class="Title_specs_boxes">
+                <p id="title_specs">Battery</p>
+            </div>
+        </div>
+        <div class="detailed_specs">
+            <div class="row">
+                <div class="col-2">
+                    <div class="left_side_side_text">
+                        <p>Runtime per charge</p>
+                        <p>Charge cycles</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="right_side_text">
+                        <p>~ 67h</p>
+                        <p>1000 cycles</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Camera section with 4 boxes and more text below-->
+        <div class="camera_inner_specs_boxes text-center">
+            <div class="Title_specs_boxes">
+                <p id="title_specs">Camera of Xiaomi Mi 9T Pro</p>
+            </div>
+        </div>
+        <div class="camera_detailed_specs_whole_box">
+            <p><span id="title">Triple rear cameras</span></p>
+
+            <div class="row">
+                <div class="col">
+                    <div class="camera_boxes">
+                        <div class="row">
+                            <div class="col">
+                                <p><span id="title">Standard</span></p>
+                                <div class="camera_inner_text">
+                                    <p>Resolution</p>
+                                    <p>Sensor</p>
+                                    <p>Type</p>
+                                    <p>Aperture</p>
+                                    <p>ISO</p>
+                                    <p>Pixel size</p>
+                                    <p>Pixel Binning</p>
+                                    <p>Sensor size</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p>1</p>
+                                <div class="camera_inner_text">
+                                    <p>50 Mpx</p>
+                                    <p>Omnivision 950 LightHunter</p>
+                                    <p>CMOS</p>
+                                    <p>ƒ/ 1.65</p>
+                                    <p>--</p>
+                                    <p>1.00 µm</p>
+                                    <p>1-4 (2x2)</p>
+                                    <p>1/1.3"</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="camera_boxes">
+                        <div class="row">
+                            <div class="col">
+                                <p><span id="title">Wide Angle lens</span></p>
+                                <div class="camera_inner_text">
+                                    <p>Resolution</p>
+                                    <p>Sensor</p>
+                                    <p>Type</p>
+                                    <p>Aperture</p>
+                                    <p>Pixel size</p>
+                                    <p>Pixel Binning</p>
+                                    <p>Sensor size</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p>2</p>
+                                <div class="camera_inner_text">
+                                    <p>50 Mpx</p>
+                                    <p>Omnivision OV50M</p>
+                                    <p>CMOS</p>
+                                    <p>ƒ/ 2.4</p>
+                                    <p>0.61 µm</p>
+                                    <p>1-4 (2x2)</p>
+                                    <p>1/1.3"</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Button area box in camera-->
+            <div class="bottom_camera_boxes">
+                <div class="row">
+                    <div class="col">
+                        <div class="camera_boxes">
+                            <div class="row">
+                                <div class="col">
+                                    <p><span id="title">Telephoto lens</span></p>
+                                    <div class="camera_inner_text">
+                                        <p>Resolution</p>
+                                        <p>Sensor</p>
+                                        <p>Type</p>
+                                        <p>Aperture</p>
+                                        <p>Pixel size</p>
+                                        <p>Pixel Binning</p>
+                                        <p>Sensor size</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <p>3</p>
+                                    <div class="camera_inner_text">
+                                        <p>50 Mpx</p>
+                                        <p>Samsung S5KJN5</p>
+                                        <p>ISOCELL</p>
+                                        <p>ƒ/ 3.0</p>
+                                        <p>1.00 µm</p>
+                                        <p>1-4 (2x2)</p>
+                                        <p>1/1.3"</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="camera_boxes">
+                            <div class="row">
+                                <div class="col">
+                                    <p><span id="title">Selfie</span></p>
+                                    <div class="camera_inner_text">
+                                        <p>Resolution</p>
+                                        <p>Sensor</p>
+                                        <p>Type</p>
+                                        <p>Aperture</p>
+                                        <p>Pixel size</p>
+                                        <p>Pixel Binning</p>
+                                        <p>Sensor size</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <p>1</p>
+                                    <div class="camera_inner_text">
+                                        <p>32 Mpx</p>
+                                        <p>Omnivision OV32D</p>
+                                        <p>ISOCELL</p>
+                                        <p>ƒ/ 2.0</p>
+                                        <p>0.61 µm</p>
+                                        <p>1-4 (2x2)</p>
+                                        <p>1/3.6"</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--The last vew words from the camera area-->
+            <br>
+
+            <div class="the_very_end_text">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="camera_inner_text">
+                            <p>Flash</p>
+                            <p>Optical Stabilisation</p>
+                            <p>Slow Motion Video</p>
+                            <p>Aperture</p>
+                            <p>Pixel size</p>
+                            <p>Pixel Binning</p>
+                            <p>Sensor size</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="camera_inner_text">
+                            <p>LED</p>
+                            <p>Yes</p>
+                            <p>Yes, 1920 fps</p>
+                            <p>ƒ/ 3.0</p>
+                            <p>0.64 µm</p>
+                            <p>1-4 (2x2)</p>
+                            <p>1/2.76"</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--End of Spec of the phone infomation such as, brand, release date, screen, processor, graphics all the way to the end of the page section-->
+    
+
+
+
+
+
+    <!--pop up section for the gallery area-->
+
+    <!--image pop up-->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Xiaomi Mi 9T Pro</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="owl-carousel owl-theme">
+                        <div class="item"> <img class="carousel-image"
+                                src="../../assets/images/all_images_andvids/mi9t pro/thumb_211788_default_big.png">
+                        </div>
+                        <div class="item"><img class="carousel-image"
+                                src="../../assets/images/all_images_andvids/mi9t pro/thumb_211790_default_big.png">
+                        </div>
+                        <div class="item"> <img class="carousel-image"
+                                src="../../assets/images/all_images_andvids/mi9t pro/thumb_211811_default_big - Copy.png">
+                        </div>
+                        <div class="item"><img class="carousel-image"
+                                src="../../assets/images/all_images_andvids/mi9t pro/thumb_211838_default_big.png">
+                        </div>
+                        <div class="item"> <img class="carousel-image"
+                                src="../../assets/images/all_images_andvids/mi9t pro/thumb_211844_default_big.png ">
+                        </div>
+                        <div class="item"> <img class="carousel-image"
+                                src="../../assets/images/all_images_andvids/mi9t pro/thumb_211846_default_big.png">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                        data-bs-toggle="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+</body>
+
+</html>

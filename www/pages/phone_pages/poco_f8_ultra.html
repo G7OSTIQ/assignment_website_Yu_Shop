@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/www/css_file/inner_phone_page.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> <!--JQuery used for burger menu to toggel-->
-    <script src="../java/yu_shop_funtions.js"></script>
+    <script src="../../java/yu_shop_funtions.js"></script>
     <title>Yu Shop</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -39,15 +39,15 @@
                 <div class="topheader">
                     <div class="col">
                         <div class="burger_menu" id="navbar-toggler" onclick="slideUpDown()"> <img id="burger_menu_icon"
-                                src="../assets/images/icons/bars-solid-full.svg" href="../index.html"></div>
+                                src="../../assets/images/icons/bars-solid-full.svg" href="../../index.html"></div>
                     </div>
                     <div class="col">
-                        <a href="../index.html">
-                            <img class="title_shop" src="../assets/images/icons/1x/Artboard 1.png">
+                        <a href="../../index.html">
+                            <img class="title_shop" src="../../assets/images/icons/1x/Artboard 1.png">
                         </a>
                     </div>
                     <div class="col">
-                        <div class="signin"> <img src="../assets/images/icons/user-solid-full.svg"></div>
+                        <div class="signin"> <img src="../../assets/images/icons/user-solid-full.svg"></div>
                     </div>
                 </div>
             </div>
@@ -61,19 +61,19 @@
                     <div class="row">
                         <div class="col" id="hover_effect">
                             <!--This is called hover_effect_selected because the user is in the phone page therefore it will have a different colour-->
-                            <a id="nav_colour" href="../pages/phone.html">Phone</a>
+                            <a id="nav_colour" href="../../pages/phone.html">Phone</a>
                         </div>
                         <div class="col" id="hover_effect">
-                            <a id="nav_colour" href="../pages/lastest_news.html">News</a>
+                            <a id="nav_colour" href="../../pages/lastest_news.html">News</a>
                         </div>
                         <div class="col" id="hover_effect">
-                            <a id="nav_colour" href="../pages/quiz.html">Discount Quiz</a>
+                            <a id="nav_colour" href="../../pages/quiz.html">Discount Quiz</a>
                         </div>
                         <div class="col" id="hover_effect">
-                            <a id="nav_colour" href="../pages/top_best.html">Top Best</a>
+                            <a id="nav_colour" href="../../pages/top_best.html">Top Best</a>
                         </div>
                         <div class="col" id="hover_effect">
-                            <a id="nav_colour" href="../pages/contact.html">Contact Us</a>
+                            <a id="nav_colour" href="../../pages/contact.html">Contact Us</a>
                         </div>
 
                     </div>
@@ -96,12 +96,12 @@
                         <div class="col fixing">
                             <div class="phone_box text-center">
                                 <img id="fix_phone_size_image"
-                                    src="../assets/images/all_images_andvids/poco f8/thumb_1166676_phone_front_big.jpg">
+                                    src="../../assets/images/all_images_andvids/poco f8/thumb_1166676_phone_front_big.jpg">
                                 <div id="dialog"></div>
                                 <div data-bs-target="#exampleModalToggle" data-bs-toggle="modal"
                                     class="small_camera_area">
                                     <p id="number_imgs">6 </p>
-                                    <img id="fix_camera_icon" src="../assets/images/icons/camera-solid-full.svg">
+                                    <img id="fix_camera_icon" src="../../assets/images/icons/camera-solid-full.svg">
                                 </div>
                             </div>
                         </div>
@@ -111,13 +111,13 @@
                                 <p>POCO F8 ULTRA</p>
                             </div>
                             <div class="rating">
-                                <p>9.8 <img id="rating_image" src="../assets/images/icons/chart-area-solid-full.svg">
+                                <p>9.8 <img id="rating_image" src="../../assets/images/icons/chart-area-solid-full.svg">
                                 </p>
 
                             </div>
                             <div class="phone_price_button">
                                 <p>Buy Now:</p>
-                                <button class="price_buton">€899.00</button>
+                                <button onclick="addToCardfuntion()" class="price_buton">€899.00</button>
                             </div>
                         </div>
                     </div>
@@ -127,9 +127,9 @@
                 <!--Video section area-->
                 <div class="vidoe_box">
                     <video id="video_fix_size" controls>
-                        <source src="../assets/images/all_images_andvids/vids/f8 vid/video_2026-01-06_19-36-24.mp4"
+                        <source src="../../assets/images/all_images_andvids/vids/f8 vid/video_2026-01-06_19-36-24.mp4"
                             type="video/mp4">
-                        <source src="../assets/images/all_images_andvids/vids/f8 vid/video_2026-01-06_19-36-24.mp4"
+                        <source src="../../assets/images/all_images_andvids/vids/f8 vid/video_2026-01-06_19-36-24.mp4"
                             type="video/ogg">
                         Your browser does not support the video tag.
                     </video>
@@ -159,7 +159,7 @@
                                     <div class="row">
                                         <div class="col">
                                             <img class="rating_heart_icon"
-                                                src="../assets/images/icons/chart-area-solid-full.svg">
+                                                src="../../assets/images/icons/chart-area-solid-full.svg">
                                         </div>
                                         <div class="col">
 
@@ -206,7 +206,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="spec_Icons">
-                            <img src="../assets/images/icons/Display.svg">
+                            <img src="../../assets/images/icons/Display.svg">
                         </div>
                         <div class="summery_phone_text">
                             <p id="inner_summary_text_bold">6.9"
@@ -219,7 +219,7 @@
                     </div>
                     <div class="col">
                         <div class="spec_Icons">
-                            <img src="../assets/images/icons/Phone_icon.svg">
+                            <img src="../../assets/images/icons/Phone_icon.svg">
                         </div>
                         <div class="summery_phone_text">
                             <p id="inner_summary_text_bold">218 g
@@ -231,7 +231,7 @@
                     </div>
                     <div class="col">
                         <div class="spec_Icons">
-                            <img src="../assets/images/icons/Cpu.svg">
+                            <img src="../../assets/images/icons/Cpu.svg">
                         </div>
                         <div class="summery_phone_text">
                             <p id="inner_summary_text_bold">SnapD. 8 Elite
@@ -246,7 +246,7 @@
                     </div>
                     <div class="col">
                         <div class="spec_Icons">
-                            <img src="../assets/images/icons/battery-full-solid-full.svg">
+                            <img src="../../assets/images/icons/battery-full-solid-full.svg">
                         </div>
                         <div class="summery_phone_text">
                             <p id="inner_summary_text_bold">6500 mAh
@@ -258,7 +258,7 @@
                     </div>
                     <div class="col-3">
                         <div class="spec_Icons">
-                            <img src="../assets/images/icons/camera-solid-full.svg">
+                            <img src="../../assets/images/icons/camera-solid-full.svg">
                         </div>
                         <div class="summery_phone_text">
                             <div class="row">
@@ -285,7 +285,7 @@
                     </div>
                     <div class="col">
                         <div class="spec_Icons">
-                            <img src="../assets/images/icons/wifi-solid-full.svg">
+                            <img src="../../assets/images/icons/wifi-solid-full.svg">
                         </div>
                         <div class="summery_phone_text">
                             <div class="row">
@@ -307,7 +307,7 @@
                     <div class="col">
                         <div class="last_box_andriod_icon">
                             <div class="spec_Icons">
-                                <img class="spec_Icons" src="../assets/images/icons/Android.png">
+                                <img class="spec_Icons" src="../../assets/images/icons/Android.png">
                             </div>
                             <div class="summery_phone_text">
                                 <p id="inner_summary_text_bold">Xiaomi
@@ -785,22 +785,22 @@
 
                     <div class="owl-carousel owl-theme">
                         <div class="item"> <img class="carousel-image"
-                                src="../assets/images/all_images_andvids/poco f8/thumb_1166658_default_big.png">
+                                src="../../assets/images/all_images_andvids/poco f8/thumb_1166658_default_big.png">
                         </div>
                         <div class="item"><img class="carousel-image"
-                                src="../assets/images/all_images_andvids/poco f8/thumb_1166659_default_big.png">
+                                src="../../assets/images/all_images_andvids/poco f8/thumb_1166659_default_big.png">
                         </div>
                         <div class="item"> <img class="carousel-image"
-                                src="../assets/images/all_images_andvids/poco f8/thumb_1166662_default_big.png">
+                                src="../../assets/images/all_images_andvids/poco f8/thumb_1166662_default_big.png">
                         </div>
                         <div class="item"><img class="carousel-image"
-                                src="../assets/images/all_images_andvids/poco f8/thumb_1166663_default_big.png">
+                                src="../../assets/images/all_images_andvids/poco f8/thumb_1166663_default_big.png">
                         </div>
                         <div class="item"> <img class="carousel-image"
-                                src="../assets/images/all_images_andvids/poco f8/thumb_1166664_default_big.png">
+                                src="../../assets/images/all_images_andvids/poco f8/thumb_1166664_default_big.png">
                         </div>
                         <div class="item"> <img class="carousel-image"
-                                src="../assets/images/all_images_andvids/poco f8/thumb_1166670_default_big.png">
+                                src="../../assets/images/all_images_andvids/poco f8/thumb_1166670_default_big.png">
                         </div>
                     </div>
 

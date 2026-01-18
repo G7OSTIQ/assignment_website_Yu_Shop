@@ -11,9 +11,8 @@ function checkingForm(event) {
     let username = document.getElementById("username").value;
     let surname = document.getElementById("surname").value;
     let email = document.getElementById("email").value;
-    let businessemail = document.getElementById("bus_email").value;
     let location = document.getElementById("location").value;
-    let phone_number = document.getElementById("number").value;
+    let phone_number = document.getElementById("phone").value;
 
 
     // Basically when user inputs are empty it will set the border to red while if its not empty the code will change the text box to green
@@ -41,14 +40,6 @@ function checkingForm(event) {
         document.getElementById("email").style.border = "thick solid green";
     }
 
-    if (businessemail == "") {
-
-        document.getElementById("bus_email").style.border = "thick solid red";
-    }
-    else {
-        document.getElementById("bus_email").style.border = "thick solid green";
-    }
-
     if (location == "") {
 
         document.getElementById("location").style.border = "thick solid red";
@@ -59,20 +50,20 @@ function checkingForm(event) {
 
 
     //Number means it's convering a string input into a Interger(number) there for this will check if the user has added 8 numbers.
-    if (Number(phone_number) === "") {
-        alert("Please input up to 8 numbers, Try again");
-        document.getElementById("number").style.border = "thick solid red";
+    if (Number(phone_number) == "") {
+        alert("Please input up to 8 numbers [1234 1234], Try again");
+        document.getElementById("phone").style.border = "thick solid red";
     }
     //What does length mean length means it's the amout of number there is in the text box there for it will count them all
-    else if (Number(phone_number.length) < 8 || Number(phone_number.length) > 8) {   //If teh user added more or less then 8 it will show an alert and will change the text box to green
-        alert("Please input up to 8 numbers, Try again");
-        document.getElementById("number").style.border = "thick solid red";
+    else if (Number(phone_number.length) < 9 || Number(phone_number.length) > 9) {   //If teh user added more or less then 9 it will show an alert and will change the text box to green
+        alert("Please input up to 8 numbers [1234 1234], Try again"); 
+        document.getElementById("phone").style.border = "thick solid red";
     }
     else {
-        document.getElementById("number").style.border = "thick solid green";
+        document.getElementById("phone").style.border = "thick solid green";
     }
 
-    if ((username == "" || surname == "" || email == "" || Number(phone_number === ""))) {
+    if ((username == "" || surname == "" || email == "" || Number(phone_number == ""))) {
         alert("Please Fill in all the boxes in the Form, Try again")
         event.preventDefault(); //This is here for it does not keep on reseting the form but will block the outlook app
     }
@@ -107,8 +98,9 @@ function quiz_checker() {
     let quiz4 = document.getElementById("question4.1").value.toLowerCase();
     let userpoints = 0;
 
-    if ((quiz1 == "") || (quiz2 == "") || (quiz3 == "") || (quiz4 == "")) {
-        alert("Oh Uh You did not answer them correctly")
+    if (quiz1 ==  "1" || quiz2 === "" || quiz3 == "3" || quiz4 === "") {
+        alert("Oh Uh You did not answer all questions");
+        return; //what this does it will stop the rest of the function  below until all inputs are entered
     }
 
     if (quiz2 == "yes") {
@@ -138,12 +130,17 @@ function quiz_checker() {
 
     if (userpoints == 4) { //If the user managed to get all 4 points it will display an alert and shows the discount box img visable
         document.getElementById("discount_size_fix").style.display = "block";
-        alert("you win!")
+        alert("Well Done you Earned a Discount!")
     }else{
         alert("Oh Uh You did not answer them correctly")
     }
 
 }
+
+function addToCardfuntion() { //what this does when user presses on the button inside the phone spec page it will show an alert
+    alert("Phone was added to cart!")
+}
+
 
 
 //broken will fix
