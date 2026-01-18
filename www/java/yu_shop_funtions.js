@@ -108,7 +108,7 @@ function quiz_checker() {
     let userpoints = 0;
 
     if ((quiz1 == "") || (quiz2 == "") || (quiz3 == "") || (quiz4 == "")) {
-        alert("Oh Uh You did not answer any of them")
+        alert("Oh Uh You did not answer them correctly")
     }
 
     if (quiz2 == "yes") {
@@ -119,7 +119,7 @@ function quiz_checker() {
         document.getElementById("question2.1").style.border = "thick solid red";
     }
 
-    if (quiz4 == "pro") {
+    if (quiz4 == "ultra") {
         document.getElementById("question4.1").style.border = "thick solid green";
         userpoints = userpoints + 1
     }
@@ -139,6 +139,8 @@ function quiz_checker() {
     if (userpoints == 4) { //If the user managed to get all 4 points it will display an alert and shows the discount box img visable
         document.getElementById("discount_size_fix").style.display = "block";
         alert("you win!")
+    }else{
+        alert("Oh Uh You did not answer them correctly")
     }
 
 }

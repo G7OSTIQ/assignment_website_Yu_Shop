@@ -96,7 +96,7 @@ a {
 }
 
 #phone_qoutes{
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 .phone_button{
@@ -104,9 +104,9 @@ a {
 }
 
 #phone_size_fixing{
-    width: 500px;
+    width: 400px;
     height: 400px;
-    margin-left: 7%;
+    float: right;
 }
 
 #price_buton{
@@ -126,7 +126,7 @@ a {
 }
 
 #middle_phone_size_fixing{
-    width: 500px;
+    width: 400px;
     height: 400px;
 }
 

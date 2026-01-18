@@ -74,7 +74,7 @@ a {
 .phone_shop_info_box{
     background-color: #E2E1Df;
     border-radius: 15px;
-    width: 500px;
+    width: 450px;
 }
 
 #rating_image{
@@ -91,7 +91,7 @@ a {
 }
 
 #fix_phone_size_image{
-    height: 350px;
+    height: 300px;
     padding-left: 7%;
     margin: 7%;
 }
@@ -99,7 +99,7 @@ a {
 .phone_names{
     font-family: 'Inter';
     font-weight: bolder;
-    font-size: 21px;
+    font-size: 19px;
     color:#29292F;
     padding-top: 3%;
 }
@@ -109,7 +109,7 @@ a {
 }
 
 .phone_price_button{
-    margin-top: 55%;
+    margin-top: 50%;
 }
 
 .price_buton{
