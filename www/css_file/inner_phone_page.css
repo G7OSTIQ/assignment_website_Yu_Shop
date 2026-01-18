@@ -1,0 +1,369 @@
+/* main built in classes tags Section. This is to modify body,footer or main class ID Ex: a,h1,h2,body,footer */
+
+a {
+    text-decoration: none !important;
+}
+
+P{
+    margin: 0% !important;
+    font-family: 'Inter';
+}
+
+
+/* End of main built in classes tags */
+
+/*nav section*/
+.topheader {
+    display: flex;
+    width: 100%;
+    background-color: #29292F;
+}
+
+.signin {
+    height: 20px;
+    width: 20px;
+    margin-left: 80%;
+}
+
+.title_shop {
+    height: 80px;
+    width: 150px;
+    margin-left: 40%;
+
+}
+
+
+.burger_menu,.signin {
+    height: 80px;
+    width: 80px;
+
+}
+
+
+.navmenus {
+    background-color: #494955;
+    width: 100%;
+    font-size: 24px;
+    display: none;
+}
+
+#hover_effect:hover {
+    background-color: #5f5f6e;
+}
+
+#hover_effect, #hover_effect_selected {
+    height: 60px;
+    padding-top: 10px;
+
+}
+
+#hover_effect_selected{
+    background-color: #29292F;
+}
+
+
+
+#nav_colour {
+    color: #E2E1Df;
+}
+
+/* end of nav section */
+
+
+/* Top box area */
+
+.top_box_area{
+    background-color: #E2E1Df;
+    border-radius: 0px 0px 15px 15px;
+    padding: 1%;
+}
+
+.phone_boxes_table{
+    padding-top: 2%;
+    margin-left: 2%;
+}
+
+
+
+#rating_image{
+    height: 80px;
+    width: 80px;
+}
+
+.rating{
+    color: #0000ce;
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+#fix_phone_size_image{
+    height: 400px;
+    padding-left: 10%;
+    padding: 10%;
+}
+
+.phone_box{
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 85%;
+    
+}
+
+.phone_names{
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 34px;
+    color:#29292F;
+    padding-top: 3%;
+}
+
+.phone_names p {  /* This is to remove the default p margin below */
+    margin: 0;
+}
+
+.phone_price_button{
+    margin-top: 50%;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.price_buton{
+    font-family: 'Inter';
+    font-weight:bolder;
+    font-size: 20px;
+    background-color: #000080;
+    color: #E2E1Df;
+    width: 90%;
+    height: 60px;
+    border-radius: 15px;
+    border: solid 0px; /*It's 0px to remove the default boarder button */
+}
+
+
+
+.price_buton:hover{
+    background-color: #0000ce;
+}
+
+.small_camera_area{
+    display: flex;
+    background-color: #E2E1Df;
+    width: 30%;
+    border-radius: 15px;
+    margin-left: 35%;
+    padding: 1%;
+}
+
+#fix_camera_icon{
+    width: 30px;
+    height: 30px;
+}
+
+#number_imgs{
+    font-family: 'Inter';
+    font-weight:bold;
+    font-size: 24px;
+    padding-left: 15%;
+}
+
+
+
+#sub_heading_title{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#video_fix_size {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+
+/* end of Top box area */
+
+/* Summary box seaction */
+
+
+#title{
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 24px;
+    box-shadow: inset 0 -7px #00b9dc;
+}
+
+.summary_box_area, .specs_box{
+    margin: 1%;
+    width: 80%;
+}
+
+.main_summary_box_area{
+    background-color: #E2E1Df;
+    border-radius: 15px;
+    padding: 1%;
+}
+
+.summary_top_left_box{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 1%;
+    height: 100%;
+}
+
+.rating_heart_icon{
+    width: 90px;
+    display: flex;
+}
+
+.heart_svg{
+    margin-top: 7%;
+    cursor: pointer;
+    height: 70px;
+}
+
+.heart_svg:hover{
+    fill: red;
+}
+
+.heart_svg:active{
+    fill: red;
+}
+
+
+
+
+#rating_number{
+    font-size: 34px;
+    color: #000080;
+}
+
+.rating_heart_icon{
+    display: flex;
+}
+
+.summary_top_right_box{
+    font-size: 17px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 1%;
+    width: 100%;
+    height: 100%;
+}
+
+#pros_green{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#Cons_red{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.summary_bottom_box{
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 1%;
+    margin-top: 1%;
+    width: 100%;
+}
+
+.spec_Icons{
+    width: 34px;
+    height: 34px;
+}
+
+#inner_summary_text_bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.summery_phone_text{
+    font-size: 17px;
+}
+
+
+.specs_box{
+    width: 80% !important;
+}
+
+/*The detailed specs boxes section*/
+
+.inner_specs_boxes{
+    background-color: #29292F;
+    color: #E2E1Df;
+    font-size: 34px;
+    font-weight: bold;
+    border-radius: 15px 15px 0px 0px;
+    margin-top: 2%;
+}
+
+.detailed_specs{
+    font-size: 20px;
+    padding: 2%;
+    background-color: #E2E1Df;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.left_side_side_text{
+    font-weight: bold;
+}
+
+/* End of The detailed specs boxes section*/
+
+/* Camera section area */
+
+.camera_inner_specs_boxes{
+     background-color: #E2E1Df;
+    color: #29292F;
+    font-size: 34px;
+    font-weight: bold;
+    border-radius: 15px 15px 0px 0px;
+    margin-top: 2%;
+}
+
+.camera_detailed_specs_whole_box{
+    font-size: 20px;
+    padding: 2%;
+    background-color: #29292F;
+    border-radius: 0px 0px 15px 15px;
+    color: #E2E1Df;
+}
+
+.camera_boxes{
+    background-color: #494955;
+    border-radius: 15px;
+    margin: 1%;
+    height: 100%;
+    padding: 2%;
+}
+.bottom_camera_boxes{
+    margin-top: 2%;
+}
+
+
+
+/*Pop up gallery section*/
+.modal-content{
+    width: 1000px !important;
+}
+
+.modal-dialog{
+    margin-top: 20% !important;
+    margin-left: 20% !important;
+}
+
+.carousel-image{
+    width: 500px !important;
+    height: 500px !important;
+}
+
+
+
+

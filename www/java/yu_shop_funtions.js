@@ -16,7 +16,7 @@ function checkingForm(event) {
     let phone_number = document.getElementById("number").value;
 
 
-    // Basically when user inputs are empty it will set the border to red while if its not empty the code will chnage the text box to green
+    // Basically when user inputs are empty it will set the border to red while if its not empty the code will change the text box to green
     if (username == "") {
 
         document.getElementById("username").style.border = "thick solid red";
@@ -100,7 +100,8 @@ function restingForm() {
 //This funtion is in the quiz page
 function quiz_checker() {
 
-    let quiz1 = document.querySelector('input[name="user_choice_radio_1"]:checked');
+    // referance for the radio quiz https://www.vbforums.com/showthread.php?679670-RESOLVED-How-to-use-Javascript-to-get-the-value-of-a-radio-button
+    let quiz1 = document.querySelector('input[name="user_choice_radio_1"]:checked'); //This takes the selected radio button from the ground called user_choice_radio_1
     let quiz2 = document.getElementById("question2.1").value.toLowerCase();
     let quiz3 = document.querySelector('input[name="user_choice_radio_2"]:checked');
     let quiz4 = document.getElementById("question4.1").value.toLowerCase();
@@ -139,5 +140,18 @@ function quiz_checker() {
         document.getElementById("discount_size_fix").style.display = "block";
         alert("you win!")
     }
+
+}
+
+
+//broken will fix
+function toggleHeart() {
+    let heart = document.querySelector('heart_svg');
+
+    if (heart.style.fill === "black") {
+            heart.style.fill = "red";
+        } else {
+            heart.style.fill = "black";
+        }
 
 }
