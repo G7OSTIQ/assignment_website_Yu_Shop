@@ -146,11 +146,12 @@ function addToCardfuntion() { //what this does when user presses on the button i
 function toggleHeart() {
     // let heart = document.querySelector('heart_svg');
     let heart = document.getElementById('heart_svg');
-    // console.log(heart.style);
-    if (heart.style.fill === "black") {
-            heart.style.fill = "red";
-        } else {
+    console.log(heart.style);
+
+    if (heart.style.fill == "red") {
             heart.style.fill = "black";
+        } else {
+            heart.style.fill = "red";
         }
 
 }

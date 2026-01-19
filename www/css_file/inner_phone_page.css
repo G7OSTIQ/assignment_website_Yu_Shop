@@ -203,6 +203,7 @@ P{
     background-color: #E2E1Df;
     border-radius: 15px;
     padding: 1%;
+    box-shadow: -7px 7px 7px -2px #E2E1Df;
 }
 
 .summary_top_left_box{
@@ -223,15 +224,14 @@ P{
     margin-top: 7%;
     cursor: pointer;
     height: 70px;
+    fill: black;
 }
 
 .heart_svg:hover{
     fill: red;
 }
 
-.heart_svg:active{
-    fill: red;
-}
+
 
 
 
@@ -309,6 +309,7 @@ P{
     padding: 2%;
     background-color: #E2E1Df;
     border-radius: 0px 0px 15px 15px;
+    box-shadow: -7px 7px 7px -2px #E2E1Df;
 }
 
 .left_side_side_text{
@@ -334,6 +335,7 @@ P{
     background-color: #29292F;
     border-radius: 0px 0px 15px 15px;
     color: #E2E1Df;
+    box-shadow: -7px 7px 7px -2px #E2E1Df;
 }
 
 .camera_boxes{
