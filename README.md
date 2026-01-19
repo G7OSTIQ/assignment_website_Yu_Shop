@@ -3,6 +3,8 @@ website_Assignment
 
 In this Doc will guide you throught this website assignment according to the plan doc.
 
+**If you cannot understand the layout from github web page please open the README.md from VS**
+
 **Please open the assignment from index.html**
 
 ____________________________________________________________________
