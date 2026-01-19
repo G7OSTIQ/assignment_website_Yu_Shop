@@ -1,6 +1,8 @@
 # Yu Shop Website
 website_Assignment
 
+# Website link to view the web online: https://g7ostiq.github.io/assignment_website_Yu_Shop/
+
 In this Doc will guide you throught this website assignment according to the plan doc.
 
 **If you cannot understand the layout from github web page please open the README.md from VS**
