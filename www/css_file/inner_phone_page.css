@@ -6,7 +6,7 @@ a {
 
 P{
     margin: 0% !important;
-    font-family: 'Inter';
+    font-family: 'Inter' !important;
 }
 
 
@@ -111,7 +111,7 @@ P{
 }
 
 .phone_names{
-    font-family: 'Inter';
+    /*font-family: 'Inter'; */
     font-weight: bolder;
     font-size: 34px;
     color:#29292F;

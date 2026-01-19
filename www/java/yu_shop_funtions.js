@@ -81,8 +81,7 @@ function restingForm() {
     document.getElementById("email").style.border = "";
     document.getElementById("bus_email").style.border = "";
     document.getElementById("location").style.border = "";
-    document.getElementById("number").style.border = "";
-    document.getElementsByClassName("reset").style.border = "";
+    document.getElementById("phone").style.border = "";
 
 
 }
@@ -145,8 +144,9 @@ function addToCardfuntion() { //what this does when user presses on the button i
 
 //broken will fix
 function toggleHeart() {
-    let heart = document.querySelector('heart_svg');
-
+    // let heart = document.querySelector('heart_svg');
+    let heart = document.getElementById('heart_svg');
+    // console.log(heart.style);
     if (heart.style.fill === "black") {
             heart.style.fill = "red";
         } else {
