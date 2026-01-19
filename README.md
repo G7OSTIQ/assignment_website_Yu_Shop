@@ -79,17 +79,23 @@ Rating/heart buttons & Hover effect:            toggleHeart()
 # JS Explanation:
 ## Within the js has more detialed notes from comments
 
-**Burger Menu:**                                When user clicks on the burger icon top left it will open/closes the Nav bar
+### **Burger Menu:**                                
+When user clicks on the burger icon top left it will open/closes the Nav bar
 
-**Contact Form:**                               User must input all the infomation if the informationis blank it will leave a red boarder else turns green and opens outlook
+### **Contact Form:**                               
+User must input all the infomation if the informationis blank it will leave a red boarder else turns green and opens outlook
 
-**Quiz:**                                       There are 4 quiz in total **x2radio**  **x2input** if user did not answer them all a pop up will be displayed else if all correct a pop up will display telling the user "you got them all" and showes the span image below the button
+### **Quiz:**                                       
+There are 4 quiz in total **x2radio**  **x2input** if user did not answer them all a pop up will be displayed else if all correct a pop up will display telling the user "you got them all" and showes the span image below the button
 
-**Carousel Gallery**                            To Open the Gallery Carousel, user must press the camera icon below the phone image from **Selected Phone Page** once inside user can move the image left or right. The Gallery is claimed from OwlCarousel
+### **Carousel Gallery:**                            
+To Open the Gallery Carousel, user must press the camera icon below the phone image from **Selected Phone Page** once inside user can move the image left or right. The Gallery is claimed from OwlCarousel
 
-**Pop Menu**                                    Pop up menu slitghtly chnaged to an alert where when user press on the price button an alert will pop up showing alerting the user that "item was added to cart".
+### **Pop Menu:**                                    
+Pop up menu slitghtly chnaged to an alert where when user press on the price button an alert will pop up showing alerting the user that "item was added to cart".
 
-**Rating/heart buttons & Hover effect:**        This will be located within the **Selected Phone Page** where when user hovers on the heart (via css) change colour to red while in js if clicked change to red else black
+### **Rating/heart buttons & Hover effect:**        
+This will be located within the **Selected Phone Page** where when user hovers on the heart (via css) change colour to red while in js if clicked change to red else black
 
 
 
