@@ -51,12 +51,12 @@ function checkingForm(event) {
 
     //Number means it's convering a string input into a Interger(number) there for this will check if the user has added 8 numbers.
     if (Number(phone_number) == "") {
-        alert("Please input up to 8 numbers [1234 1234], Try again");
+        alert("Please input up to 8 numbers [12341234], Try again");
         document.getElementById("phone").style.border = "thick solid red";
     }
     //What does length mean length means it's the amout of number there is in the text box there for it will count them all
-    else if (Number(phone_number.length) < 9 || Number(phone_number.length) > 9) {   //If teh user added more or less then 9 it will show an alert and will change the text box to green
-        alert("Please input up to 8 numbers [1234 1234], Try again"); 
+    else if (Number(phone_number.length) < 8 || Number(phone_number.length) > 8) {   //If teh user added more or less then 8 it will show an alert and will change the text box to green
+        alert("Please input up to 8 numbers [12341234], Try again"); 
         document.getElementById("phone").style.border = "thick solid red";
     }
     else {
